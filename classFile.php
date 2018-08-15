@@ -1,7 +1,7 @@
 <?php
 
 interface FileInterface {
-    public function get();
+	public function get();
 	public function set();
 	public function getSize();
 	public function setSize();
