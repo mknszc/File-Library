@@ -128,7 +128,7 @@ class File implements FileInterface {
     public function getMaxUploadSize() {
     	return $this->maxUploadSize;
     }
-
+ 
     public function upload() {
     	move_uploaded_file($_FILES[$this->fileName]['name'], $this->path);
     }
