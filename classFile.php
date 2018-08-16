@@ -31,7 +31,7 @@ interface ImgInterface extends FileInterface () {
 	public function getColor();
 	public function setColor();
 	public function rotate();
-
+}
 
 class File implements FileInterface {
 
