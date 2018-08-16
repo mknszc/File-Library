@@ -21,7 +21,7 @@ interface FileInterface {
 	public function setPath();
 }
 
-interface ImgInterface extends FileInterface () {
+interface ImageInterface extends FileInterface {
 	public function getWidth();
 	public function setWidth();
 	public function getHeight();
@@ -37,6 +37,6 @@ class File implements FileInterface {
 
 }
 
-class Img extends File implements ImgInterface {
+class Image extends File implements ImageInterface {
 
 }
